@@ -1,15 +1,16 @@
 
-//Autor: Cleisson Barbosa
+//Autor: Cleisson Barbosa.
+//Colabora√ß√£o e evolu√ß√£o: Cloves Rocha.
 
 
 
 void Dialogo(char pergunta[30], int aleatorio){
 
-//condiÁıes - encadeamento de if e else
+//condi√ß√µes - encadeamento de if e else
 	    if(strncmp(pergunta, "ola",3)==0 || strncmp(pergunta, "oi",2)==0 ){
         	digitando ();
          textcolor(LIGHT_GREEN);
-	     printf("Ol· ! \n\n");
+	     printf("Ol√° ! \n\n");
 	     textcolor(LIGHT_GRAY);
  	      //system("pause");
         }
@@ -30,11 +31,11 @@ void Dialogo(char pergunta[30], int aleatorio){
                     }
         }
 
-          //oraÁ„o
+          //ora√ß√£o
         else if(stricmp(pergunta, "que horas sao?")==0 || stricmp(pergunta, "que horas sao")==0 || strstr(pergunta, "oracao")){
               	  digitando ();
                textcolor(LIGHT_GREEN);
-               printf("Pai nosso que est·s no cÈu, santificado seja teu nome... hahaha..\n\n");
+               printf("Pai nosso que est√°s no c√©u, santificado seja teu nome... hahaha..\n\n");
                textcolor(LIGHT_GRAY);
         }
               
@@ -43,7 +44,7 @@ void Dialogo(char pergunta[30], int aleatorio){
         else if(strncmp(pergunta, "que horas?",7)==0 || strncmp(pergunta, "horas",5)==0 || strstr(pergunta, "data")){
              	         digitando ();
        	        textcolor(LIGHT_GREEN);
-                printf("Esta È a data e a hora de hoje:\n\nDATA : ");
+                printf("Esta √© a data e a hora de hoje:\n\nDATA : ");
                 system ( "date /t" );
                 printf("\nHORA: ");
                 system ("time /t");
@@ -51,7 +52,7 @@ void Dialogo(char pergunta[30], int aleatorio){
         }
 	               
 	               
-        //reagindo a confirmaÁ„o
+        //reagindo a confirma√ß√£o
         else if(strstr(pergunta,"vc e uma maquina") || strstr(pergunta,"maquina")){
 					   	    digitando ();
                 textcolor(LIGHT_GREEN);
@@ -68,46 +69,46 @@ void Dialogo(char pergunta[30], int aleatorio){
        }
 		                  
 		                  
-       //limitaÁıes
+       //limita√ß√µes
        else if(strncmp(pergunta,"quero saber",10)==0 || stricmp(pergunta,"tudo")==0 ){ 	
 						       	   digitando ();
                  textcolor(LIGHT_GREEN);
                  if (aleatorio==1)
-                 printf("Olha, eu so vou saber tudo quando me conectar\ncom a internet.\nvocÍ pode fazer isso pra mim?\n\n");
+                 printf("Olha, eu so vou saber tudo quando me conectar\ncom a internet.\nvoc√™ pode fazer isso pra mim?\n\n");
                  else
                  printf("Eu ate poderia te responder, mas eu precisaria te matar\n\n");
 			     textcolor(LIGHT_GRAY);
         }
 		                       
 		                       
-        //reagndo a negaÁ„o
-      else if(stricmp(pergunta,"nao")==0 || strncmp(pergunta,"N„o",4)==0 ){
+        //reagndo a nega√ß√£o
+      else if(stricmp(pergunta,"nao")==0 || strncmp(pergunta,"N√£o",4)==0 ){
 						          	digitando ();
                  textcolor(LIGHT_GREEN);
                  printf("Que pena..\n\n");
                  textcolor(LIGHT_GRAY);
       }   
 		                             
-      //reagindo a ofenÁa
+      //reagindo a ofen√ßa
       else if(stricmp(pergunta,"idiota")==0 || strstr(pergunta,"seu idiota")){
 						               	digitando ();
               textcolor(LIGHT_GREEN);
               if(aleatorio==1)
-                printf("A ofenÁa n„o È o melhor caminho para o dialogo...\n\n");
+                printf("A ofen√ßa n√£o √© o melhor caminho para o dialogo...\n\n");
               else
  	            printf("Seja mais gentil comigo, e seremos amigos..\n\n");
 				textcolor(LIGHT_GRAY);
        }
 		                                    
 		                                    
-       //reagindo a acusaÁ„o
+       //reagindo a acusa√ß√£o
       else if(strncmp(pergunta,"seu",3)==0){
 						                    	digitando ();
               textcolor(LIGHT_GREEN);
               if(aleatorio==1)
                printf("Eu sou uma inteligencia artificial, disso eu tenho plena certeza!..\n\n");
 				else
-                 printf("Eu n„o tenho tenho sentimentos...\n\n");
+                 printf("Eu n√£o tenho tenho sentimentos...\n\n");
                   textcolor(LIGHT_GRAY);
        }
 		                                    
@@ -129,9 +130,9 @@ void Dialogo(char pergunta[30], int aleatorio){
      	digitando ();
               textcolor(LIGHT_GREEN);
               if(aleatorio==1)
-               printf("N„o teste minha inteligencia, Diga alguma coisa!..\n\n");
+               printf("N√£o teste minha inteligencia, Diga alguma coisa!..\n\n");
 	          else
-               printf("VocÍ n„o tem nada a dizer?...\n\n");
+               printf("Voc√™ n√£o tem nada a dizer?...\n\n");
                textcolor(LIGHT_GRAY);
      }
 		                                       
@@ -143,7 +144,7 @@ void Dialogo(char pergunta[30], int aleatorio){
               if(aleatorio==1)
                printf("Meu criador me chama de CBF IA\n\n");
 			  else
-                printf("Meu nome È CBF IA\n\n");
+                printf("Meu nome √© CBF IA\n\n");
                 textcolor(LIGHT_GRAY);
      }
 											   
