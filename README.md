@@ -20,7 +20,7 @@ A comandos subliminares.
 
 ![alt text](https://uploaddeimagens.com.br/images/001/125/898/original/imagem_4.jpg?1507473098)
 
-# "Conversando com a Maquina"
+# "Conversando com a Máquina"
 Na versão atual da aplicação, é possivel estabelecer uma conversa corriqueira com o software,
 no entando algumas respostas podem parecer sem sentido as vezes.
 
