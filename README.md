@@ -1,4 +1,4 @@
-# Inteligencia Artificial na Linguagem C
+# Inteligência Artificial na Linguagem C
 Projeto criado com a intenção de aprimoramento nas habilidades da linguagem C, 
 sua pretensão inicial é da criação de uma inteligencia parcial e artificial utilizando conhecimentos adquiridos da linguagem C.
 
